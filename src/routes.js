@@ -5,7 +5,7 @@ import Menu from "./Componentes/Menu";
 
 
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
 
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
