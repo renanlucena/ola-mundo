@@ -8,7 +8,7 @@ export default function Post({post}) {
         <img
             className={styles.capa}
             alt='Imagem de capa do Post'
-            src={`assests/posts/${post.id}/capa.png`}
+            src={`/assets/posts/${post.id}/capa.png`}
         
         />
 
@@ -18,3 +18,4 @@ export default function Post({post}) {
     </div>
   )
 }
+
